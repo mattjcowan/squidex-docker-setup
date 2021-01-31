@@ -69,6 +69,13 @@ cd ~/squidex-docker-setup
 docker-compose up -d
 ```
 
+#### Persistent volumes
+
+Persistent volumes for the mongo database and assets that get uploaded to squidex will reside on the host at:
+
+- /etc/squidex/mongo
+- /etc/squidex/assets
+
 #### Inspect your docker containers as needed
 
 Docker help with:
