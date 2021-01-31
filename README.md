@@ -65,6 +65,7 @@ Override with `ABC__DEF=hij`.
 Once all environment variables are set, run docker-compose up:
 
 ```
+cd ~/squidex-docker-setup
 docker-compose up -d
 ```
 
