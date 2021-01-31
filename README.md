@@ -43,12 +43,12 @@ Edit the `.env` file as needed.
 
 The following variables ARE required:
 
-- SQUIDEX_DOMAIN=mycmd.mydomain.com
+- SQUIDEX_DOMAIN=mycms.mydomain.com
 - SQUIDEX_ADMINEMAIL=someadminuser@mydomain.com
 - SQUIDEX_ADMINPASSWORD=lower_upper_special_char_and_number_password
 
 Reference the [appsettings.json](https://github.com/Squidex/squidex/blob/master/backend/src/Squidex/appsettings.json) file to make any other
-overrides as needed. 
+overrides as needed. Put these overrides in the `docker-compose.yml` file in the `environment` section of the `squidex_squidex` service section.
 
 Each `json` indent can be overridden with a double underscore (e.g: __), for example:
 
