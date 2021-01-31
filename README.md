@@ -69,7 +69,7 @@ cd ~/squidex-docker-setup
 docker-compose up -d
 ```
 
-## Inspect your docker containers as needed
+#### Inspect your docker containers as needed
 
 Docker help with:
 
